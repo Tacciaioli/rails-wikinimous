@@ -1,6 +1,6 @@
-<ul>
+<ul class="list-group">
   <% @articles.each do |article| %>
-  <li>
+  <li class="list-group-item ">
     <%= link_to article_path(article) do %>
         <%= article.title %>
       <% end %>

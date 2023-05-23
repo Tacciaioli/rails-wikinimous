@@ -18,7 +18,7 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
-    @restaurant.destroy
+    @article.destroy
 
     redirect_to articles_path
   end
